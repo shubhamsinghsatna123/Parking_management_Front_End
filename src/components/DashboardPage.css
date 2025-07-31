@@ -1,0 +1,16 @@
+.dashboard-bg {
+  background-image: url('./images/photo-1616363088386-31c4a8414858.avif');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  color: white;
+}
+.dashboard-bg1 {
+  background-image: url('./images/pexels-fbo-media-535159577-33206051.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  color: white;
+}

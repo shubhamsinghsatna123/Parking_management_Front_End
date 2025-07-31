@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+padding: 40px 150px 0 0;
+   width:50vw;
+}
+.main1{
+    padding: 150px 0px 0px 200px; 
+    width: 100vw;
+    align-items: center;
+}
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content:space-evenly;
+}
+.btn1{
+color: #4C49ED;
+}
+.btn2{
+    background-color: #4C49ED;
+    color: white;
+    width: 190px;
+}
+.images{
+    margin:0 0 0 70px;
+}
+.section1>p{
+    font-size: 23px;
+}
+.last{
+    text-align: center;
+}
+.signup{
+    display: flex;
+
+}
+.header1{
+    display: inline;
+}
+@media screen and (max-width: 580px){
+    .header{
+        height: 100vh;
+        flex-direction: column;
+    }
+    .images{
+        display: none;
+    }
+    .main{
+        min-height: 100vh;
+        width: 100vw;
+        padding:60px 60px 0px 60px; 
+        font-size: 23px;  
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .main1{
+        padding: 20px 60px 0px 60px;
+    }
+    .last>p{
+        font-size: 15px;
+    }
+    .section1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
